@@ -11,7 +11,7 @@
 }
 
 .header h1 {
-  color: #2c3e50;
+  color: #2b4c6d;
   margin-bottom: 10px;
   font-size: 2.5rem;
 }
@@ -176,11 +176,6 @@
   }
 }
 
-  @media (max-width: 1024px) {
-    border-right: none;
-    border-bottom: 1px solid var(--border);
-  }
-}
 
 #next-steps ul {
   list-style: none;

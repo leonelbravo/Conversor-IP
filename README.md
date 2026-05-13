@@ -1,16 +1,30 @@
-# React + Vite
+# Conversor IP a Binario
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto realizado por:
+- Bravo, Leonel Nicolas
+- Gonzales Alan Nicolas
 
-Currently, two official plugins are available:
+Materia: Taller de diseño y construcción de recursos didácticos interactivos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+¿Qué es un Conversor de IP a Binario?
 
-## React Compiler
+En términos simples, es una herramienta que traduce las direcciones IP que usamos los humanos (como 192.168.1.1) al lenguaje que realmente entienden las computadoras: el sistema binario (0 y 1).
+¿Cómo funciona?
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Una dirección IPv4 está compuesta por 32 bits, divididos en 4 grupos llamados octetos. Cada número decimal que ves en una IP representa un grupo de 8 dígitos binarios.
 
-## Expanding the ESLint configuration
+Por ejemplo, el conversor realiza este proceso:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+    Decimal: 192.168.1.1
+
+    Binario: 11000000.10101000.00000001.00000001
+
+¿Para qué sirve?
+
+Esta conversión es fundamental en el mundo de las redes para:
+
+    Cálculo de Subredes (Subnetting): Determinar cuántos dispositivos pueden conectarse a una red.
+
+    Máscaras de Red: Entender qué parte de la dirección identifica a la red y qué parte al dispositivo (host).
+
+    Ruteo: Ayudar a los routers a decidir hacia dónde enviar los paquetes de datos de forma eficiente.
