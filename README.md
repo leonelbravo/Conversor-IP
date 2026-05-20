@@ -6,25 +6,79 @@ Proyecto realizado por:
 
 Materia: Taller de diseño y construcción de recursos didácticos interactivos
 
-¿Qué es un Conversor de IP a Binario?
+## Descripción
 
-En términos simples, es una herramienta que traduce las direcciones IP que usamos los humanos (como 192.168.1.1) al lenguaje que realmente entienden las computadoras: el sistema binario (0 y 1).
-¿Cómo funciona?
+Este proyecto es una aplicación web que convierte direcciones IPv4 en su equivalente binario. Está desarrollada con React y Vite, y sirve como herramienta didáctica para entender cómo funciona la representación binaria de las direcciones IP.
 
-Una dirección IPv4 está compuesta por 32 bits, divididos en 4 grupos llamados octetos. Cada número decimal que ves en una IP representa un grupo de 8 dígitos binarios.
+## ¿Qué incluye?
 
-Por ejemplo, el conversor realiza este proceso:
+- Conversión de direcciones IP a binario.
+- Interfaz web interactiva.
+- Ejemplos de direcciones IPv4 y su representación en octetos binarios.
 
-    Decimal: 192.168.1.1
+## Requisitos
 
-    Binario: 11000000.10101000.00000001.00000001
+- Node.js (versión 18 o superior recomendada).
+- npm como gestor de paquetes. (version 11.13.0 o superior recomendada)
 
-¿Para qué sirve?
+## Clonar el proyecto
 
-Esta conversión es fundamental en el mundo de las redes para:
+```bash
+git clone https://github.com/tu-usuario/Conversor-IP.git
+cd "Conversor IP"
+```
 
-    Cálculo de Subredes (Subnetting): Determinar cuántos dispositivos pueden conectarse a una red.
+> Cambia la URL si el repositorio está en otra ubicación.
 
-    Máscaras de Red: Entender qué parte de la dirección identifica a la red y qué parte al dispositivo (host).
+## Instalación
 
-    Ruteo: Ayudar a los routers a decidir hacia dónde enviar los paquetes de datos de forma eficiente.
+```bash
+npm install
+```
+
+## Ejecutar en modo desarrollo
+
+```bash
+npm run dev
+```
+
+Después de ejecutar, abre el enlace que muestre Vite (generalmente `http://localhost:5173`).
+
+## Generar versión de producción
+
+```bash
+npm run build
+```
+
+## Previsualizar la build
+
+```bash
+npm run preview
+```
+
+## Scripts disponibles
+
+- `npm run dev` — inicia el servidor de desarrollo.
+- `npm run build` — genera la versión optimizada para producción.
+- `npm run preview` — previsualiza la versión de producción.
+- `npm run lint` — ejecuta ESLint en el proyecto.
+
+## Estructura del proyecto
+
+- `src/` — código fuente de la aplicación.
+- `public/` — recursos estáticos.
+- `index.html` — archivo HTML principal.
+- `package.json` — dependencias y scripts del proyecto.
+
+## ¿Por qué es útil?
+
+Esta aplicación ayuda a comprender:
+
+- la conversión de IP a binario,
+- qué es un octeto,
+- cómo se relacionan las máscaras de red con las direcciones IP.
+
+## Autores
+
+- Leonel Nicolás Bravo
+- Alan Nicolás Gonzales
