@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './estilonuevo.css'
+import SeccionPractica from './SeccionPractica.jsx'
 import imagenEsquema from './conversion-ip.png'
 
 function App() {
@@ -104,7 +105,8 @@ function App() {
         )}
       </main>
 
-      {}
+      <SeccionPractica />
+
       <div className="info-controls">
         <button 
           className={`tab-btn ${infoTab === 'ip' ? 'active' : ''}`}
